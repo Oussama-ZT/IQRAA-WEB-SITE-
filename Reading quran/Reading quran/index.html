@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iqraa | اقرأ</title>
+    <!-- thuluth decorated Font-->
+    <link rel="stylesheet" type="text/css" href="https://www.fontstatic.com/f=thuluth-decorated" />
+    <!-- Cairo Font-->
+    <link rel="stylesheet" type="text/css" href="https://www.fontstatic.com/f=cairo-bold" />
+    <!-- Font AWesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <!-- Main Style -->
+    <link rel="stylesheet" href="CSS/Style.css">
+    <!-- Logo of head-->
+    <link rel="shortcut icon" href="CSS/channels4_profile.jpg">
+    <!-- slides animation link-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>
+       
+    <header class="header">
+        <div class="container">
+            <div class="logo" >اقرأ</div>
+            <ul>
+                <li data-filter="main" class="active">الصفحة الرئيسية</li>
+                <li data-filter="hadith" >احاديث</li>
+                <li data-filter="quran" >قراءة القرآن الكريم</li>
+                <li data-filter=""><a href="./Listening quran/index.html">الاستماع الى القرآن الكريم</a></li>
+                <li data-filter="footer" >تواصل معنا</li>
+            </ul>
+            <div class="bars">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="main">
+        <div class="container">
+            <div class="title">
+                <h2 >
+                    اهلا و سهلا 
+                    <br>
+                    في موقع اقرأ
+                </h2>
+                <button class="btn">
+                    ابدأ
+
+                    <i class="fas fa-caret-left"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-----------------------------Main-hadith----------------------------------->
+    <section class="hadith">
+        <h3 data-aos="slide-left">احاديث</h3>
+
+        <div class="container">
+            <div class="hadithContainer" data-aos="fade-down">
+            </div>
+            <div class="buttons" >
+                <div class="prev" data-aos="fade-right">السابق</div>
+                <div class="number">150 / 1</div>
+                <div class="next" data-aos="fade-left">التالي</div>
+            </div>
+        </div>
+    </section>
+          
+    <!--------------------------Main-Reading-Quran-------------------------------->
+    <section class="quran">
+        <h3  data-aos="fade-down">القرآن الكريم</h3>
+        <div class="container">
+            <div class="surahsContainer" data-aos="fade-up"></div>
+                <div class="surah">
+                    <p ></p>
+                    <p ></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="surah-popup">
+        <div class="close-popup">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="ayat">
+            
+        </div> 
+    </div>
+
+    <!--scroll top-->
+
+    <div class="scrollBtn ">
+        <i class="fas fa-angle-double-up"></i>
+    </div>
+
+    <section class="footer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill-opacity="1" d="M0,128L60,154.7C120,181,240,235,360,224C480,213,600,139,720,138.7C840,139,960,213,1080,229.3C1200,245,1320,203,1380,181.3L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+        </svg>
+        <div class="social">
+            <a href="https://www.facebook.com/profile.php?id=61552633806485"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/oussama_works/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/oussama-zitouni-8970b425a/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Oussama-ZT?tab=overview&from=2023-11-01&to=2023-11-13"><i class="fab fa-github"></i></a>
+
+        </div>
+    </section>
+
+
+    
+    <script src="CSS/Java Script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+       AOS.init({
+       once : true,
+      duration : 1200,
+      });
+    </script>
+</body>
+</html>
